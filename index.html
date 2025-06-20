@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Expense Tracker</h1>
+      <button id="toggle-mode">Light/Dark Mode</button>
+    </header>
+
+    <div class="main-content">
+      <!-- Left panel -->
+      <div class="left-panel">
+        <div class="form-section">
+          <input type="text" id="description" placeholder="Description" />
+          <input type="number" id="amount" placeholder="Amount" />
+          <select id="type">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+          </select>
+          <button id="add">Add</button>
+        </div>
+
+        <div class="summary">
+          <div>Total Income: ₹<span id="total-income">0</span></div>
+          <div>Total Expenses: ₹<span id="total-expense">0</span></div>
+          <div>Balance: ₹<span id="balance">0</span></div>
+        </div>
+
+        <div class="transactions">
+          <ul id="transaction-list"></ul>
+        </div>
+
+        <button id="export">Export to CSV</button>
+      </div>
+
+      <!-- Right panel -->
+      <div class="right-panel">
+        <canvas id="expenseChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
