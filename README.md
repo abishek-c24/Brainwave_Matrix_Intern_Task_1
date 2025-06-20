@@ -46,12 +46,9 @@ A clean, responsive Expense Tracker web application built using **HTML**, **CSS*
 
 ## 📸 Screenshots
 
-> Add images in a `/screenshots` folder and link them like this:
-
-```markdown
-![App Screenshot](screenshots/desktop-view.png)
-![Dark Mode](screenshots/dark-mode.png)
-```
+![Dark Mode](screenshots/dark.png)
+![Light Mode](screenshots/light.png)
+![App Screenshot](screenshots/dark_io.png)
 
 ---
 
