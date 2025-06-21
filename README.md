@@ -56,8 +56,7 @@ A clean, responsive Expense Tracker web application built using **HTML**, **CSS*
 
 1. **Clone this repository:**
    ```
-   git clone https://github.com/yourusername/expense-tracker.git
-   cd expense-tracker
+   git clone https://github.com/abishek-c24/Brainwave_Matrix_Intern_Task_1.git
    ```
 2. **Open in browser:**
    ```
